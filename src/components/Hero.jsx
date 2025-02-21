@@ -19,7 +19,7 @@ const Hero = () => {
 
         <div className="flex max-w-[600px] flex-col items-center 
         justify-center gap-3 text-center">
-          <h1 className="text-5xl font-light md:text-7xl"> Jaik Tom</h1>
+          <h1 className="text-5xl font-light md:text-7xl"> Jaiku Tom</h1>
           <h3 className="text-2xl font-light md:text-3xl">Software Developer</h3>
           <p className="text-lg">
             I'm a software developer with a passion for building web applications.
