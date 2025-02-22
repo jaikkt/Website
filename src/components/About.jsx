@@ -9,7 +9,7 @@ const Tech = () => {
   }
 
   return (
-    <div id="Tech" className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32">
+    <div id="About" className="flex min-h-[80vh] w-full flex-col items-center justify-center gap-16 md:gap-32">
         
         <motion.h1 
         variants={variants}
@@ -17,7 +17,7 @@ const Tech = () => {
         animate="visible"
         transition={{duration: 0.5}}
         className="text-center text-4xl font-light text-white md:text-6xl">
-          Specialized
+          About Me
         </motion.h1>
 
         <div className="flex flex-wrap items-center justify-center gap-10 p-5">

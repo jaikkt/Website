@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 z-10 flex w-full items-center 
     justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6
-     text-white backdrop-blur-md md:justify-evenly">
+     text-white backdrop-blur-md md:justify-evenly font-poppins">
 
-        <Link to="/"  className= "bg-white bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
+        <Link to="/"  className= "bg-white bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100 akira-font"
         onClick={() => document.getElementById('home').scrollIntoView({ behavior: 'smooth' })}>JKT</Link>
 
         <ul className="hidden md:flex gap-10">
@@ -27,8 +27,8 @@ const Navbar = () => {
             <li>Home</li>
         </Link>  
 
-        <a href="#Tech" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
-            <li>Tech</li>
+        <a href="#About" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <li>About</li>
         </a>  
 
         <a href="#Projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
@@ -86,8 +86,8 @@ const Navbar = () => {
             <li>Home</li>
         </Link>  
 
-        <a href="#Tech" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
-            <li>Tech</li>
+        <a href="#About" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">
+            <li>About</li>
         </a>  
 
         <a href="#Projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">

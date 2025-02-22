@@ -3,14 +3,14 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Tech from "./components/Tech";
-import About from "./pages/About";
+import About from "./components/About";
+import Gallery from "./pages/Gallery";
 
 function Home() {
   return (
     <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
       <Hero />
-      <Tech />
+      <About />
       <Projects />
       <Contact />
     </main>
@@ -26,7 +26,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} /> {/* Single scrollable page */}
-        <Route path="/about" element={<About />} /> {/* Separate About Page */}
+        <Route path="/gallery" element={<Gallery />} /> {/* Separate About Page */}
       </Routes>
       
     </Router>
