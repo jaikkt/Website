@@ -84,19 +84,19 @@ const Tech = () => {
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
-                    <span>One</span>
+                    <span>Software Development</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
-                    <span>Two</span>
+                    <span>UI/UX Design</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
-                    <span>Three</span>
+                    <span>Fintech</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
-                    <span>Poda</span>
+                    <span>Filmmaking</span>
                   </li>
                 </ul>
                 <p className="mt-auto text-sm opacity-80">Click</p>
@@ -113,11 +113,12 @@ const Tech = () => {
           animate="visible"
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <h3 className="text-2xl font-semibold mb-4">Jaik Tom</h3>
+          <h3 className="text-2xl font-semibold mb-4">Jaik Kuruvila Tom</h3>
           <p className="mb-6 opacity-90">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, 
-           odit, minus omnis et temporibus vel dolorem facilis iure dolores ab 
-           dolorum sequi aliquid, earum libero id sed blanditiis obcaecati neque?
+            I am a Sophmore at Virginia Tech majoring in Computer Science 
+            and minoring in Economics. With experties in various multidisciplinary
+            fields, I am always looking for new challenges and opportunities to 
+            learn and grow.
           </p>
           <p className="mb-6 opacity-90">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos officia 
@@ -127,10 +128,10 @@ const Tech = () => {
           
           {/* Animated Badges */}
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-            <BadgeShine text="One" />
-            <BadgeShine text="Two" />
-            <BadgeShine text="Three" />
-            <BadgeShine text="Poda" />
+            <BadgeShine text="Software Development" />
+            <BadgeShine text="UI/UX Design" />
+            <BadgeShine text="Fintech" />
+            <BadgeShine text="Filmmaking" />
           </div>
 
           {/* Tech Icons - Now positioned right below the badges */}
@@ -142,16 +143,16 @@ const Tech = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <motion.div transition={{ duration: 0.5, delay: 0.7 }}>
-              <BiLogoAdobe className="cursor-pointer text-[50px] text-red-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px]" />
+              <BiLogoAdobe className="cursor-pointer text-[50px] text-red-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px] drop-shadow-[0_0_6px_rgba(220,38,38,0.8)]" />
             </motion.div>
             <motion.div transition={{ duration: 0.5, delay: 0.8 }}>
-              <BiLogoPython className="cursor-pointer text-[50px] text-blue-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px]" />
+              <BiLogoPython className="cursor-pointer text-[50px] text-blue-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px] drop-shadow-[0_0_6px_rgba(37,99,235,0.8)]" />
             </motion.div>
             <motion.div transition={{ duration: 0.5, delay: 0.9 }}>
-              <BiMoviePlay className="cursor-pointer text-[50px] text-purple-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px]" />
+              <BiMoviePlay className="cursor-pointer text-[50px] text-purple-700 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px] drop-shadow-[0_0_6px_rgba(147,51,234,0.8)]" />
             </motion.div>
             <motion.div transition={{ duration: 0.5, delay: 1.0 }}>
-              <BiLogoJava className="cursor-pointer text-[50px] text-sky-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px]" />
+              <BiLogoJava className="cursor-pointer text-[50px] text-sky-600 transition-all duration-300 hover:-translate-y-2 sm:text-[60px] md:text-[70px] drop-shadow-[0_0_6px_rgba(2,132,199,0.8)]" />
             </motion.div>
           </motion.div>
         </motion.div>

@@ -57,7 +57,9 @@ const Navbar = () => {
 
         <li
             className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+                <a href="https://github.com/jaikkt" target="_blank" rel="noopener noreferrer">
                 <BsGithub/>
+                </a>
         </li>
 
         <li
@@ -115,7 +117,9 @@ const Navbar = () => {
 
         <li
             className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+                <a href="https://github.com/jaikkt" target="_blank" rel="noopener noreferrer">
                 <BsGithub/>
+                </a>
         </li>
 
         <li

@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-const CardPulseBorder = ({ title, description, tools }) => {
+const CardPulseBorder = ({ title, description, tools, image }) => {
   return (
     <div className="relative w-full max-w-md mx-auto">
       {/* Animated Border */}
@@ -11,6 +11,13 @@ const CardPulseBorder = ({ title, description, tools }) => {
 
       {/* Card Content */}
       <div className="flex flex-col items-center justify-center space-y-4 rounded-lg border border-gray-800 bg-gradient-to-b from-gray-950 to-black p-6">
+        {image && (
+          <img 
+            src={image} 
+            alt={title}
+            className="w-full h-48 object-cover rounded-lg mb-4"
+          />
+        )}
         <h4 className="text-xl font-medium text-white">{title}</h4>
         <p className="text-white text-center">{description}</p>
         <p className="text-sm text-gray-300">{tools}</p>
@@ -35,6 +42,7 @@ const Projects = () => {
             title="AI Playlist Generator"
             description="A smart AI-powered playlist generator built using Java. It curates personalized playlists based on user preferences."
             tools="Technologies: Java, Eclipse, GitHub"
+            image="src/assets/Suit.jpg"
           />
           <CardPulseBorder
             title="AI Budget Tracker"
